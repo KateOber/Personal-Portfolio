@@ -6,9 +6,11 @@
 const express = require('express');
 const pug = require('pug');
 const app = express();
+const favicon = require('serve-favicon');
+app.use(favicon(__dirname + '/public/images/favicon.ico'));
 app.use(express.urlencoded({ extended: true }));
 app.use('/static', express.static('public'));
-const port = 3000;
+const port = process.env.PORT || 3000;
 //converting JSON to JS object
 const projects = JSON.parse(JSON.stringify(require('./data.json'))).projects;
 
@@ -32,4 +34,4 @@ app.get('*', (req, res) => {
 });
 
 
-app.listen(process.env.PORT || port, () => console.log('Server has started and is listening on port number: ' + this.address().port, app.settings.env));
+app.listen(port, () => console.log('Server has started and is listening on port number: ' + port));
