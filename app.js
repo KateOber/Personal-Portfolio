@@ -32,4 +32,4 @@ app.get('*', (req, res) => {
 });
 
 
-app.listen(port, () => console.log('Server has started and is listening on port number: ' + port));
+app.listen(process.env.PORT || port, () => console.log('Server has started and is listening on port number: ' + this.address().port, app.settings.env));
