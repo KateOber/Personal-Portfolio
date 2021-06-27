@@ -18,8 +18,8 @@ block content
         ul 
         each tech in proj.technologies
           li #{tech}
-
-
+        |<br>
+  
         if proj.demo
           a.button.expanded(href=proj.demo) Live Demo
         else
@@ -31,4 +31,8 @@ block content
     
 
     each image in proj.image_urls
-      img.image(src=image)
+      if(image.substr(image.length-3) == 'jpg')
+        img.image(src=image)
+      else
+        video.image(autoplay controls loop)
+          source(src=image, type='video/mp4')
