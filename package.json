@@ -1,0 +1,16 @@
+{
+    "name": "portfolio",
+    "version": "1.0.0",
+    "description": "Portfolio website for Kate Obertas",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js"
+    },
+    "author": "Kate Obertas",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.17.1",
+        "pug": "^3.0.2"
+    },
+    "devDependencies": {}
+}

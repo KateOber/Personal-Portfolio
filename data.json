@@ -1,0 +1,27 @@
+{
+    "projects": [{
+            "id": 0,
+            "project_name": "Random Quote",
+            "description": "This project generates a random technology quote every time a user clicks on the button. At first launch quote is always set as the default one. Some quotes will have special formatting for source and year.",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "image_urls": ["/static/images/random_img.jpg", "/static/images/random_img2.jpg", "/static/images/random_img3.jpg"],
+            "github": "https://github.com/Koberpunk/CSIS3380-Project1"
+        },
+        {
+            "id": 1,
+            "project_name": "Pagination",
+            "description": "This app divides set number of contacts into calculated number of pages as per the amount of contacts per page. Number of contacts per page can be dynamically set up using the dropdown menu. Change will be imminently reflected in the number of pages.",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "image_urls": ["/static/images/pagination_img.jpg", "/static/images/pagination_img2.jpg", "/static/images/pagination_img3.jpg"],
+            "demo": "https://koberpunk.github.io/CSIS3380-Project2/",
+            "github": "https://github.com/Koberpunk/CSIS3380-Project2"
+        },
+        {
+            "id": 2,
+            "project_name": "BMI Calculator",
+            "description": "This app calculates user's BMI based on weight and height. Uses EJS template.",
+            "technologies": ["HTML", "CSS", "JavaScript", "node.js", "Express", "EJS"],
+            "image_urls": ["/static/images/bmi_img.jpg", "/static/images/bmi_img2.jpg", "/static/images/bmi_img3.jpg"]
+        }
+    ]
+}
