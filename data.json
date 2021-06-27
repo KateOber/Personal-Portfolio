@@ -1,11 +1,12 @@
 {
     "projects": [{
             "id": 0,
-            "project_name": "Random Quote",
-            "description": "This project generates a random technology quote every time a user clicks on the button. At first launch quote is always set as the default one. Some quotes will have special formatting for source and year.",
-            "technologies": ["HTML", "CSS", "JavaScript"],
-            "image_urls": ["/static/images/random_img.jpg", "/static/images/random_img2.jpg", "/static/images/random_img3.jpg"],
-            "github": "https://github.com/Koberpunk/CSIS3380-Project1"
+            "project_name": "Employee Directory",
+            "description": "This project fetches 12 random 'employees' every time a page is reloaded. When clicked on an employee a bigger detailed card will appear. Search bar allows find specific employees by name or Last name.",
+            "technologies": ["HTML", "CSS", "jQuery", "JavaScript"],
+            "image_urls": ["/static/images/employee_dir_img.jpg", "/static/images/employee_dir_img2.jpg", "/static/images/employee_dir_vid.mp4"],
+            "demo": "https://koberpunk.github.io/jQuery-Fetch-API/",
+            "github": "https://github.com/Koberpunk/jQuery-Fetch-API"
         },
         {
             "id": 1,
@@ -18,6 +19,14 @@
         },
         {
             "id": 2,
+            "project_name": "Random Quote",
+            "description": "This project generates a random technology quote every time a user clicks on the button. At first launch quote is always set as the default one. Some quotes will have special formatting for source and year.",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "image_urls": ["/static/images/random_img.jpg", "/static/images/random_img2.jpg", "/static/images/random_img3.jpg"],
+            "github": "https://github.com/Koberpunk/CSIS3380-Project1"
+        },
+        {
+            "id": 3,
             "project_name": "BMI Calculator",
             "description": "This app calculates user's BMI based on weight and height. Uses EJS template.",
             "technologies": ["HTML", "CSS", "JavaScript", "node.js", "Express", "EJS"],
