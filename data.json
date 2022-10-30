@@ -5,8 +5,8 @@
             "description": "This project fetches 12 random 'employees' every time a page is reloaded. When clicked on an employee a bigger detailed card will appear. Search bar allows find specific employees by name or Last name.",
             "technologies": ["HTML", "CSS", "jQuery", "JavaScript"],
             "image_urls": ["/static/images/employee_dir_img.jpg", "/static/images/employee_dir_img2.jpg", "/static/images/employee_dir_vid.mp4"],
-            "demo": "https://koberpunk.github.io/jQuery-Fetch-API/",
-            "github": "https://github.com/Koberpunk/jQuery-Fetch-API"
+            "demo": "https://kateober.github.io/jQuery-Fetch-API/",
+            "github": "https://github.com/kateober/jQuery-Fetch-API"
         },
         {
             "id": 1,
@@ -14,8 +14,8 @@
             "description": "This app divides set number of contacts into calculated number of pages as per the amount of contacts per page. Number of contacts per page can be dynamically set up using the dropdown menu. Change will be imminently reflected in the number of pages.",
             "technologies": ["HTML", "CSS", "JavaScript"],
             "image_urls": ["/static/images/pagination_img.jpg", "/static/images/pagination_img2.jpg", "/static/images/pagination_img3.jpg"],
-            "demo": "https://koberpunk.github.io/CSIS3380-Project2/",
-            "github": "https://github.com/Koberpunk/CSIS3380-Project2"
+            "demo": "https://kateober.github.io/CSIS3380-Project2/",
+            "github": "https://github.com/kateober/CSIS3380-Project2"
         },
         {
             "id": 2,
@@ -23,7 +23,7 @@
             "description": "This project generates a random technology quote every time a user clicks on the button. At first launch quote is always set as the default one. Some quotes will have special formatting for source and year.",
             "technologies": ["HTML", "CSS", "JavaScript"],
             "image_urls": ["/static/images/random_img.jpg", "/static/images/random_img2.jpg", "/static/images/random_img3.jpg"],
-            "github": "https://github.com/Koberpunk/CSIS3380-Project1"
+            "github": "https://github.com/kateober/CSIS3380-Project1"
         },
         {
             "id": 3,
